@@ -1,0 +1,26 @@
+.main3-nav {
+    display: inline-block;
+    width: 36px;
+    height: 36px;
+    background-image: url("http://pic2.iqiyipic.com/common/20160907/aeb02196c5134738a34bd527c3bd5395.png")
+}
+
+.main4 {
+    .main4-brand {
+        width: 1200px;
+        // height: 241px;
+        background: skyblue;
+        .brand1 {
+            width: 1200px;
+            // height: 241px;
+            li {
+                float: left;
+                width: 120px;
+                height: 120px;
+                border: 1px solid #f2f2f2;
+                margin: -1px 0 0 -1px;
+                box-sizing: border-box;
+            }
+        }
+    }
+}

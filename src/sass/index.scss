@@ -1,10 +1,15 @@
-
 @import "public";
 @import "top";
-.wrapper{
+@import "banner";
+@import "main1";
+@import "main2";
+@import "main3";
+@import "footer";
+.wrapper {
     width: 1200px;
     margin: 0 auto;
 }
-a{
-  color: #999;  
+
+a {
+    color: #999;
 }

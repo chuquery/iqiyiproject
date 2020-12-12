@@ -1,0 +1,119 @@
+.main1 {
+    height: 605px;
+    width: 1200px;
+    // background: #999;
+    margin-top: 20px;
+}
+
+.main1-nav {
+    display: inline-block;
+    width: 36px;
+    height: 36px;
+    background-image: url("http:pic5.iqiyipic.com/common/20160907/ae2dd09618d545a595cc8c97be29a45d.png")
+}
+
+.main1nav {
+    width: 1200px;
+    height: 40px;
+    background: skyblue;
+    margin: 8px 0 12px 0;
+}
+
+.day {
+    font-size: 30px;
+    line-height: 40px;
+}
+
+.select {
+    font-size: 16px;
+    color: #777;
+    margin-bottom: 4px;
+    line-height: 16px;
+}
+
+.mod {
+    vertical-align: bottom;
+    display: inline-block;
+    margin-bottom: 9px;
+    border-left: 1px solid #c2c2c2;
+    width: 1px;
+    height: 12px;
+    margin-left: 5px;
+    margin-right: 8px;
+}
+
+.mnavright .m1-a {
+    color: #000;
+    ;
+    display: block;
+}
+
+.m1-a:hover {
+    color: #eb3b4a
+}
+
+.mnavright {
+    margin-top: 10px
+}
+
+.m1-ad {
+    background: skyblue;
+    width: 1200px;
+    height: 520px;
+}
+
+.m1-ad li {
+    float: left;
+    width: 240px;
+    height: 256px;
+    border: 1px solid #777;
+    box-sizing: border-box;
+    // margin: -1px;
+}
+
+.ad-img {
+    margin-top: 15px;
+    text-align: center
+}
+
+.ad-text {
+    margin: 20px 15px 15px 15px;
+}
+
+.ad-text1 {
+    color: #000!important
+}
+
+.ad-text2 .sp1 {
+    border-radius: 12px 0 0 12px;
+    width: 70px;
+    line-height: 24px;
+    height: 24px;
+    display: inline-block;
+    background: #ee394b;
+    padding-left: 10px;
+    color: #fff!important
+}
+
+.ad-text2 {
+    margin: 4px 0 8px 0;
+}
+
+.ad-text3 .sp3 {
+    color: #eb3b4a;
+    font-size: 20px;
+}
+
+.ad-text3 .sp4 {
+    font-size: $font12*0.8;
+    float: right;
+}
+
+.m1-ad:after {
+    content: "";
+    display: block;
+    clear: both;
+    height: 0;
+    overflow: hidden;
+    visibility: hidden;
+}

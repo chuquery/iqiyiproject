@@ -1,0 +1,107 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "120194",
+      "name": "砖石",
+      "font_class": "zhuanshi",
+      "unicode": "e6ad",
+      "unicode_decimal": 59053
+    },
+    {
+      "icon_id": "578994",
+      "name": "向右",
+      "font_class": "xiangyou-copy",
+      "unicode": "e623",
+      "unicode_decimal": 58915
+    },
+    {
+      "icon_id": "1055088",
+      "name": "向右",
+      "font_class": "webicon213",
+      "unicode": "e68b",
+      "unicode_decimal": 59019
+    },
+    {
+      "icon_id": "1055089",
+      "name": "向左",
+      "font_class": "webicon214",
+      "unicode": "e68c",
+      "unicode_decimal": 59020
+    },
+    {
+      "icon_id": "1079610",
+      "name": "3D touch_品牌详情／列表",
+      "font_class": "3dtouchpinpaixiangqingliebiao",
+      "unicode": "e605",
+      "unicode_decimal": 58885
+    },
+    {
+      "icon_id": "1517749",
+      "name": "购物车",
+      "font_class": "gouwuche",
+      "unicode": "e656",
+      "unicode_decimal": 58966
+    },
+    {
+      "icon_id": "1859577",
+      "name": "my_order",
+      "font_class": "my_order",
+      "unicode": "e612",
+      "unicode_decimal": 58898
+    },
+    {
+      "icon_id": "4337763",
+      "name": "向右",
+      "font_class": "xiangyou",
+      "unicode": "e613",
+      "unicode_decimal": 58899
+    },
+    {
+      "icon_id": "5111279",
+      "name": "扫一扫",
+      "font_class": "saoyisao",
+      "unicode": "e666",
+      "unicode_decimal": 58982
+    },
+    {
+      "icon_id": "6129189",
+      "name": "150店、商家、商城-线性",
+      "font_class": "dianshangjiashangcheng-xianxing",
+      "unicode": "e79c",
+      "unicode_decimal": 59292
+    },
+    {
+      "icon_id": "9004937",
+      "name": "my-order",
+      "font_class": "my-order",
+      "unicode": "e627",
+      "unicode_decimal": 58919
+    },
+    {
+      "icon_id": "11690685",
+      "name": "向左",
+      "font_class": "ziyuan",
+      "unicode": "e60e",
+      "unicode_decimal": 58894
+    },
+    {
+      "icon_id": "15167712",
+      "name": "我的收藏",
+      "font_class": "wodeshoucang",
+      "unicode": "e61d",
+      "unicode_decimal": 58909
+    },
+    {
+      "icon_id": "18645359",
+      "name": "圆",
+      "font_class": "circle",
+      "unicode": "e511",
+      "unicode_decimal": 58641
+    }
+  ]
+}

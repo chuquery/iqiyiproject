@@ -1,0 +1,192 @@
+.main3-left {
+    width: 840px;
+    height: 6100px;
+    // background: pink;
+}
+
+.main3-right {
+    width: 340px;
+    // height: 1000px;
+    // background: skyblue;
+    // border: 1px solid #c2c2c2
+}
+
+.m3-ad {
+    margin-bottom: 10px;
+    width: 840px;
+    height: 292px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.m3-ad a {
+    display: block;
+    margin-bottom: 10px;
+    width: 840px;
+    height: 292px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.m3-text {
+    // background: #eeeeee;
+    height: 292px;
+    width: 258px;
+    text-align: center;
+}
+
+.m3-title {
+    font-size: 24px;
+    color: #333;
+    padding: 100px 0 20px 0;
+}
+
+.m3-price {
+    font-size: $font12*1.5;
+    color: #777
+}
+
+.m3-img img {
+    float: right;
+    width: 580px;
+    height: 290px;
+}
+
+.m3-img:hover {
+    opacity: 0.8;
+    transition: transform .5s ease;
+}
+
+.main3-right {
+    // .main3-right-top {
+    //     border: 1px solid #c2c2c2;
+    // }
+    .m3-nav {
+        width: 340px;
+        height: 50px;
+        // border: 1px solid red;
+        background: url("http://www.iqiyipic.com/common/fix/h5_qiyiShop_img/nav_tint_redbg.png") no-repeat;
+        .m3-nav-l {
+            background: url("http://www.iqiyipic.com/common/fix/h5_qiyiShop_img/good_hot_redranking.png") no-repeat;
+            float: left;
+            margin-top: 15px;
+            display: inline-block;
+            width: 20px;
+            height: 20px;
+            margin-left: 16px;
+            margin-right: 12px;
+        }
+        .m3-nav-title {
+            font-size: 21px;
+            color: #333;
+            display: inline-block;
+            float: left;
+            width: 290px;
+            margin-top: 15px;
+        }
+    }
+}
+
+.m3-shop {
+    .shop-img {
+        width: 130px;
+        height: 110px;
+        background: #fff;
+        img {
+            width: 90px;
+            height: 90px;
+            margin: 10px;
+            transition: transform .5s linear;
+        }
+        img:hover {
+            transform: scale(1.05);
+        }
+    }
+    .shop-text {
+        width: 200px;
+        height: 110px;
+        // background: cadetblue;
+        border-bottom: 1px solid #c2c2c2;
+        .shop-icon {
+            width: 57px;
+            height: 20px;
+            margin-top: 14px;
+            margin-bottom: 10px;
+            background: url("http://www.iqiyipic.com/common/fix/h5_qiyiShop_img/hot_first.png") no-repeat;
+        }
+        .shoptitle {
+            width: 100%;
+            font-size: 14px;
+            color: #333;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            line-height: 14px;
+        }
+        .shopprice {
+            margin-top: 20px;
+            .price1 {
+                font-size: 18px;
+                color: #ee394b;
+                display: inline-block;
+                float: left;
+            }
+            .price2 {
+                // display: block;
+                .sp1 {
+                    color: #c2c2c2;
+                    font-size: $font12*0.8
+                }
+                .sp2 {
+                    color: #eb3b4a;
+                    font-size: 12px;
+                }
+            }
+        }
+    }
+}
+
+.main3-right-bottom {
+    margin-top: 20px;
+    // border: 1px solid #c2c2c2;
+}
+
+// .main3-right-top {
+//     border: 1px solid #c2c2c2;
+// }
+.main3-right-bottom1 {
+    border: 1px solid #c2c2c2;
+    img {
+        width: 320px;
+        height: 160px;
+        padding: 10px 0 0 10px;
+    }
+    .m3-rb-text {
+        margin: 15px 5px 20px 10px;
+        .goodTitle {
+            font-size: 20px;
+            margin-bottom: 10px;
+        }
+        .goodDescribe {
+            color: #777;
+        }
+    }
+}
+
+.main3:after {
+    content: "";
+    display: block;
+    clear: both;
+    height: 0;
+    overflow: hidden;
+    visibility: hidden;
+}
+
+.main2-nav {
+    display: inline-block;
+    width: 36px;
+    height: 36px;
+    background-image: url("http://pic3.iqiyipic.com/common/20160907/bb2d4ba3d4fa4b369c76b813af23cd7f.png")
+}
