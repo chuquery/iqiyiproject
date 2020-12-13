@@ -6,11 +6,35 @@
 }
 
 .main4 {
+    .main4-brand:hover .main4-leftarrow {
+        display: block;
+    }
     .main4-brand {
+        margin-bottom: 50px;
+        height: 242px;
+        position: relative;
+        .main4-leftarrow {
+            display: none;
+            width: 52px;
+            height: 70px;
+            background: #ccc;
+            float: left;
+            position: absolute;
+            top: 83px;
+            opacity: 0.8;
+            .icon-ziyuan {
+                color: #fff;
+                font-size: 22px;
+                position: absolute;
+                left: 10px;
+                top: 25px;
+            }
+        }
         width: 1200px;
         // height: 241px;
         background: skyblue;
         .brand1 {
+            height: 242px;
             width: 1200px;
             // height: 241px;
             li {

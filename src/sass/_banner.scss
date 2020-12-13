@@ -4,9 +4,61 @@
     background: #ee394b;
 }
 
-.banner li {
+%bannerarrow {
+    display: none;
+    width: 70px;
+    border-radius: 50%;
+    height: 70px;
+    background: #000;
+    opacity: 0.4;
+    z-index: 2;
+    position: absolute;
+    top: 168px;
+}
+
+.banner:hover .banner-leftarrow {
+    display: block;
+}
+
+.banner:hover .banner-rightarrow {
+    display: block;
+}
+
+.banner {
     height: 400px;
+    transition: opacity 500ms ease-out;
+    z-index: 1;
     position: relative;
+    .banner-leftarrow {
+        @extend %bannerarrow;
+        left: 0px;
+        .icon-ziyuan1 {
+            font-size: 40px;
+            float: left;
+            position: absolute;
+            color: #fff;
+            left: 12px;
+            top: 16px;
+        }
+    }
+    .banner-rightarrow {
+        @extend %bannerarrow;
+        right: 0px;
+        .icon-xiangyou {
+            font-size: 49px;
+            float: right;
+            position: absolute;
+            color: #fff;
+            opacity: 1!important;
+            left: 14px;
+            top: 14px;
+        }
+    }
+    li {
+        float: left;
+        // position: relative;
+        // height: 400px;
+    }
 }
 
 .banner img {
@@ -16,4 +68,16 @@
     left: 50%;
     margin-left: -960px;
     // margin-top: 40px;
+}
+
+.z-index2 {
+    display: none;
+}
+
+.z-index3 {
+    display: none;
+}
+
+.z-index4 {
+    display: none;
 }

@@ -8,7 +8,7 @@
     .topnav {
         width: 1200px;
         height: 32px;
-        background: skyblue;
+        // background: skyblue;
         font-size: $font12;
         color: #999;
         font-family: Tahoma, Helvetica, Arial, "\5b8b\4f53", sans-serif;
@@ -25,6 +25,7 @@
     }
     
     .ulnav1 li {
+        width: 90px;
         float: left;
         line-height: 32px
     }
@@ -97,4 +98,40 @@
         background: pink;
         width: 208px;
         height: 50px;
+    }
+    
+    %_icon {
+        display: inline-block;
+        float: left;
+        cursor: pointer;
+        width: 12px;
+        height: 12px;
+        margin-top: 10px;
+        margin-right: 3px;
+        background: url("http://www.iqiyipic.com/common/fix/h5_qiyiShop_img/topMenuCar_redicon.png") no-repeat;
+    }
+    
+    .topMenuCar_icon {
+        @extend %_icon;
+        background: url("http://www.iqiyipic.com/common/fix/h5_qiyiShop_img/topMenuCar_redicon.png") no-repeat;
+    }
+    
+    .topNav_icon {
+        @extend %_icon;
+        background: url("http://www.iqiyipic.com/common/fix/h5_qiyiShop_img/topMenu_redicon.png") no-repeat;
+    }
+    
+    .myFavo_icon {
+        @extend %_icon;
+        background-position: -110px 0px;
+    }
+    
+    .watch_icon {
+        @extend %_icon;
+        background-position: -40px 0px;
+    }
+    
+    .bus_icon {
+        @extend %_icon;
+        background-position: -60px 0px;
     }
