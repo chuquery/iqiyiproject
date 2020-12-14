@@ -7,7 +7,7 @@ define([], () => {
             $username.on('blur', function() {
                 $.ajax({
                     type: 'post',
-                    url: 'http://localhost/dashboard/week7/projectname/php/reg.php',
+                    url: 'http://10.31.161.38/dashboard/idiyiproject/php/reg.php',
                     data: {
                         xingming: $username.val()
                     }

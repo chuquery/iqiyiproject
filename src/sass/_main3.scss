@@ -9,6 +9,9 @@
     .main4-brand:hover .main4-leftarrow {
         display: block;
     }
+    .main4-brand:hover .main4-rightarrow {
+        display: block;
+    }
     .main4-brand {
         margin-bottom: 50px;
         height: 242px;
@@ -22,21 +25,58 @@
             position: absolute;
             top: 83px;
             opacity: 0.8;
+            z-index: 2;
             .icon-ziyuan {
                 color: #fff;
                 font-size: 22px;
                 position: absolute;
                 left: 10px;
                 top: 25px;
+                z-index: 3;
+            }
+        }
+        .main4-rightarrow {
+            display: none;
+            width: 52px;
+            height: 70px;
+            background: #ccc;
+            float: right;
+            position: absolute;
+            top: 83px;
+            right: 0;
+            opacity: 0.8;
+            z-index: 2;
+            .icon-xiangyou {
+                color: #fff;
+                font-size: 22px;
+                position: absolute;
+                right: 10px;
+                top: 25px;
+                z-index: 3;
             }
         }
         width: 1200px;
         // height: 241px;
-        background: skyblue;
+        // background: skyblue;
         .brand1 {
             height: 242px;
             width: 1200px;
             // height: 241px;
+            position: absolute;
+            left: 0;
+            top: 0;
+            li {
+                float: left;
+                width: 120px;
+                height: 120px;
+                border: 1px solid #f2f2f2;
+                margin: -1px 0 0 -1px;
+                box-sizing: border-box;
+            }
+        }
+        .brand1 {
+            height: 242px;
+            width: 1200px;
             li {
                 float: left;
                 width: 120px;

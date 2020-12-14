@@ -1,83 +1,317 @@
-.bannernav {
-    width: 100%;
-    height: 40px;
-    background: #ee394b;
-}
-
-%bannerarrow {
-    display: none;
-    width: 70px;
-    border-radius: 50%;
-    height: 70px;
-    background: #000;
-    opacity: 0.4;
-    z-index: 2;
-    position: absolute;
-    top: 168px;
-}
-
-.banner:hover .banner-leftarrow {
-    display: block;
-}
-
-.banner:hover .banner-rightarrow {
-    display: block;
-}
-
-.banner {
-    height: 400px;
-    transition: opacity 500ms ease-out;
-    z-index: 1;
-    position: relative;
-    .banner-leftarrow {
-        @extend %bannerarrow;
-        left: 0px;
-        .icon-ziyuan1 {
-            font-size: 40px;
-            float: left;
-            position: absolute;
-            color: #fff;
-            left: 12px;
-            top: 16px;
-        }
-    }
-    .banner-rightarrow {
-        @extend %bannerarrow;
-        right: 0px;
-        .icon-xiangyou {
-            font-size: 49px;
-            float: right;
-            position: absolute;
-            color: #fff;
-            opacity: 1!important;
-            left: 14px;
-            top: 14px;
-        }
-    }
-    li {
-        float: left;
-        // position: relative;
-        // height: 400px;
-    }
-}
-
-.banner img {
-    margin: 0 auto;
-    width: 1920px;
-    position: absolute;
-    left: 50%;
-    margin-left: -960px;
-    // margin-top: 40px;
-}
-
-.z-index2 {
-    display: none;
-}
-
-.z-index3 {
-    display: none;
-}
-
-.z-index4 {
-    display: none;
-}
+           $font12:12px;
+           .top {
+               width: 100%;
+               height: 32px;
+               background: #f7f7f7;
+           }
+           
+           body {
+               overflow-x: hidden;
+           }
+           
+           .topnav {
+               width: 1200px;
+               height: 32px;
+               // background: skyblue;
+               font-size: $font12;
+               color: #999;
+               font-family: Tahoma, Helvetica, Arial, "\5b8b\4f53", sans-serif;
+           }
+           
+           .ulnav li {
+               float: left;
+               margin: 0 20px 0 0;
+               line-height: 32px;
+           }
+           
+           .navright {
+               float: right;
+           }
+           
+           .ulnav1 li {
+               width: 90px;
+               float: left;
+               line-height: 32px
+           }
+           
+           .head .head1 {
+               width: 1200px;
+               height: 60px;
+               background: #fff;
+               margin: 30px 0 30px 0;
+           }
+           
+           .headmid {
+               width: 606px;
+               height: 38px;
+               padding-left: 104px;
+               background: #fff;
+               // margin-top:20px;
+               float: left;
+           }
+           
+           .search {
+               width: 400px;
+               height: 34px;
+               float: left;
+               padding-left: 10px;
+               border: 1px solid red;
+               outline: none;
+           }
+           
+           .search_btn {
+               width: 100px;
+               color: #fff;
+               border: 0;
+               background: #eb3b4a;
+               font-size: 20px;
+               height: 38px;
+               margin: 0;
+               float: right;
+               font-family: inherit;
+               ;
+               outline: 0;
+               float: left;
+           }
+           
+           .headtext {
+               float: left;
+               height: 24px;
+               width: 512px;
+               // background: #000;
+           }
+           
+           .headtext li {
+               float: left;
+               font-size: 12px;
+               line-height: 14px;
+               margin: 5px;
+               padding-right: 10px;
+               border-right: 1px solid #999
+           }
+           
+           .headtext li a {
+               color: #999;
+           }
+           
+           .headtext li a:hover {
+               color: red
+           }
+           
+           .headright {
+               background: pink;
+               width: 208px;
+               height: 50px;
+           }
+           
+           %_icon {
+               display: inline-block;
+               float: left;
+               cursor: pointer;
+               width: 12px;
+               height: 12px;
+               margin-top: 10px;
+               margin-right: 3px;
+               background: url("http://www.iqiyipic.com/common/fix/h5_qiyiShop_img/topMenuCar_redicon.png") no-repeat;
+           }
+           
+           .topMenuCar_icon {
+               @extend %_icon;
+               background: url("http://www.iqiyipic.com/common/fix/h5_qiyiShop_img/topMenuCar_redicon.png") no-repeat;
+           }
+           
+           .topNav_icon {
+               @extend %_icon;
+               background: url("http://www.iqiyipic.com/common/fix/h5_qiyiShop_img/topMenu_redicon.png") no-repeat;
+           }
+           
+           .myFavo_icon {
+               @extend %_icon;
+               background-position: -110px 0px;
+           }
+           
+           .watch_icon {
+               @extend %_icon;
+               background-position: -40px 0px;
+           }
+           
+           .bus_icon {
+               @extend %_icon;
+               background-position: -60px 0px;
+           }
+           
+           .lunbo {
+               position: relative;
+               left: 50%;
+               margin-left: -960px;
+               width: 1920px;
+               overflow: hidden;
+               height: 400px;
+               .lunbo-box {
+                   overflow: hidden;
+                   position: absolute;
+                   top: 0;
+                   left: 0;
+                   li {
+                       float: left;
+                   }
+               }
+           }
+           
+           .bannernav {
+               width: 100%;
+               height: 40px;
+               background: #ee394b;
+           }
+           
+           %bannerarrow {
+               display: block;
+               width: 70px;
+               border-radius: 50%;
+               height: 70px;
+               background: #000;
+               opacity: 0.4;
+               z-index: 2;
+               position: absolute;
+               top: 168px;
+           }
+           
+           #left {
+               @extend %bannerarrow;
+               left: 300px;
+               .icon-ziyuan1 {
+                   font-size: 40px;
+                   float: left;
+                   position: absolute;
+                   color: #fff;
+                   left: 12px;
+                   top: 16px;
+               }
+           }
+           
+           #right {
+               @extend %bannerarrow;
+               right: 300px;
+               .icon-xiangyou {
+                   font-size: 49px;
+                   float: right;
+                   position: absolute;
+                   right: 20px;
+                   color: #fff;
+                   opacity: 1!important;
+                   left: 14px;
+                   top: 14px;
+               }
+           }
+           
+           .lunbo ol {
+               width: 100%;
+               position: absolute;
+               bottom: 22px;
+               //    background: red;
+               text-align: center;
+               z-index: 10;
+               left: 50%;
+               li {
+                   display: inline-block;
+                   float: left;
+                   cursor: pointer;
+                   margin: 0 6px;
+                   width: 15px;
+                   height: 15px;
+                   border-radius: 12px;
+                   background: rgba(0, 0, 0, 0.4);
+               }
+           }
+           
+           .lunbo ol li.active {
+               background: red;
+           }
+           
+           // .lunbo {
+           //     width: 1960px;
+           //     height: 400px;
+           //     position: relative;
+           //     .banner-leftarrow {
+           //         @extend %bannerarrow;
+           //         left: 0px;
+           //         .icon-ziyuan1 {
+           //             font-size: 40px;
+           //             float: left;
+           //             position: absolute;
+           //             color: #fff;
+           //             left: 12px;
+           //             top: 16px;
+           //         }
+           //     }
+           //     .banner-rightarrow {
+           //         @extend %bannerarrow;
+           //         right: 0px;
+           //         .icon-xiangyou {
+           //             font-size: 49px;
+           //             float: right;
+           //             position: absolute;
+           //             color: #fff;
+           //             opacity: 1!important;
+           //             left: 14px;
+           //             top: 14px;
+           //         }
+           //     }
+           // }
+           // .lunbo {
+           //     position: relative;
+           //     left: 50%;
+           //     margin-left: -960px;
+           //     width: 1920px;
+           //     overflow: hidden;
+           //     height: 400px;
+           //     ul {
+           //         position: absolute;
+           //         top: 0;
+           //         left: 0;
+           //         height: 400px;
+           //         width: 1920px;
+           //         margin: 0 auto;
+           //         overflow: hidden;
+           //         li {
+           //             float: left;
+           //         }
+           //     }
+           // }
+           // .lunbo ol {
+           //     height: 20px;
+           //     width: 200px;
+           //     position: absolute;
+           //     top: 340px;
+           //     left: 480px;
+           //     li {
+           //         float: left;
+           //         width: 20px;
+           //         height: 20px;
+           //         border-radius: 50%;
+           //         background: #000;
+           //         text-indent: -999em;
+           //         margin-right: 5px;
+           //         z-index: 2;
+           //         cursor: pointer;
+           //     }
+           // }
+           // .lunbo ol li.active {
+           //     background: blue;
+           // }
+           // #left,
+           // #right {
+           //     position: absolute;
+           //     top: 50%;
+           //     margin-top: -60px;
+           //     color: #fff;
+           //     font-size: 100px;
+           //     text-decoration: none;
+           //     display: none;
+           // }
+           // #left {
+           //     left: 20px;
+           // }
+           // #right {
+           //     right: 20px;
+           // }

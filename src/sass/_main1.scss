@@ -5,6 +5,14 @@
     margin-top: 20px;
 }
 
+.data-img {
+    transition: transform .5s linear;
+}
+
+.data-img:hover {
+    transform: scale(1.1);
+}
+
 .main1-nav {
     display: inline-block;
     width: 36px;

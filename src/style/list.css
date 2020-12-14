@@ -28,3 +28,72 @@
     padding-top: 20px;
     border-radius: 20px;
 }
+
+.list-adv li {
+    height: 370px;
+    background: skyblue;
+}
+
+.list-adv-left {
+    width: 563px;
+    height: 370px;
+    background: #ccc;
+}
+
+.list-adv-right {
+    overflow: hidden;
+    height: 330px;
+    margin: 20px 20px 20px 37px;
+    background: seagreen;
+    width: 580px;
+}
+
+.wrapper1 {
+    margin: 0 auto;
+    width: 1200px;
+    position: relative;
+    left: 200px;
+    top: -505px;
+}
+
+.fieldlist {
+    position: absolute;
+    left: 50%;
+    /* top: 40%; */
+    top: 22%;
+    /* width: 200px;
+    height: 400px; */
+    z-index: 2;
+    background: #fff;
+}
+
+.fieldlist legend {
+    margin: 0 auto;
+    font-size: 30px;
+    padding-top: 80px;
+}
+
+.fieldlist p {
+    margin-top: 30px;
+    /* width: 200px; */
+    /* height: 40px; */
+    font-size: 25px;
+    margin-left: 20px;
+}
+
+.fieldlist input {
+    height: 30px;
+    width: 220px;
+    border-radius: 10px;
+    /* font-size: 10px; */
+}
+
+.fieldlist a {
+    font-size: 20px;
+}
+
+#login {
+    margin-left: 50px;
+    height: 30px;
+    width: 100px;
+}

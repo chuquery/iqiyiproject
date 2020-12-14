@@ -9,7 +9,7 @@ define(['jquery'], () => {
             $login.on('click', function() {
                 $.ajax({
                     type: 'post',
-                    url: 'http://localhost/dashboard/week7/projectname/php/login.php',
+                    url: 'http://10.31.161.38/dashboard/idiyiproject/php/login.php',
                     data: {
                         user: $username.val(),
                         pass: $password.val()
