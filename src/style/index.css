@@ -132,7 +132,6 @@ a {
   color: red; }
 
 .headright {
-  background: pink;
   width: 208px;
   height: 50px; }
 
@@ -160,6 +159,76 @@ a {
 
 .bus_icon {
   background-position: -60px 0px; }
+
+.banner-nav {
+  height: 40px;
+  background: #ee394b;
+  width: 100%; }
+
+.nav-wrap {
+  height: 40px;
+  background: #ee394b;
+  font-family: 'Microsoft YaHei'; }
+  .nav-wrap .bannernav {
+    width: 1200px;
+    margin: 0 auto;
+    position: relative;
+    z-index: 100;
+    height: 40px;
+    overflow: initial; }
+    .nav-wrap .bannernav .nav-box {
+      float: left;
+      width: 860px;
+      height: 40px; }
+      .nav-wrap .bannernav .nav-box li {
+        display: inline-block;
+        float: left;
+        position: relative;
+        text-align: center;
+        height: 40px;
+        line-height: 40px;
+        padding: 0 25px;
+        border-bottom: 3px solid transparent;
+        box-sizing: border-box;
+        transition: border-bottom 1s;
+        -webkit-transition: border-bottom 1s;
+        _width: 100px; }
+
+.nav-box li.indexActive {
+  width: 82px; }
+
+.nav-box li.active {
+  border-bottom: 3px solid #cc0e2b;
+  font-weight: bold; }
+
+.nav-box .first_nav {
+  display: block;
+  height: 40px;
+  line-height: 40px;
+  vertical-align: middle;
+  text-align: center;
+  font-size: 16px;
+  color: #fff;
+  position: relative; }
+
+.headright {
+  position: relative; }
+
+.logoimg {
+  width: 60px; }
+
+.logoetext {
+  font-size: 16px;
+  color: #999;
+  position: absolute;
+  line-height: 20px;
+  right: 30px;
+  top: 7px;
+  margin-bottom: 20px; }
+
+.logotext2 {
+  display: block;
+  padding-bottom: 10px; }
 
 .top {
   width: 100%;
@@ -595,73 +664,80 @@ body {
   height: 36px;
   background-image: url("http://pic2.iqiyipic.com/common/20160907/aeb02196c5134738a34bd527c3bd5395.png"); }
 
-.main4 .main4-brand:hover .main4-leftarrow {
+.brand1 .brandbox li {
+  width: 120px;
+  height: 120px;
+  float: left; }
+
+.brand1 {
+  height: 240px; }
+
+.main4-brand {
+  position: relative; }
+  .main4-brand ol {
+    position: absolute; }
+
+.main4-leftarrow {
+  width: 52px;
+  height: 70px;
+  background: #ccc;
+  float: left;
+  position: absolute;
+  top: 83px;
+  z-index: 2;
+  display: none; }
+
+.h4 {
+  margin-top: 30px;
+  height: 270px; }
+
+.main4-rightarrow:hover {
   display: block; }
-.main4 .main4-brand:hover .main4-rightarrow {
-  display: block; }
-.main4 .main4-brand {
-  margin-bottom: 50px;
-  height: 242px;
-  position: relative;
-  width: 1200px; }
-  .main4 .main4-brand .main4-leftarrow {
-    display: none;
-    width: 52px;
-    height: 70px;
-    background: #ccc;
-    float: left;
-    position: absolute;
-    top: 83px;
-    opacity: 0.8;
-    z-index: 2; }
-    .main4 .main4-brand .main4-leftarrow .icon-ziyuan {
-      color: #fff;
-      font-size: 22px;
-      position: absolute;
-      left: 10px;
-      top: 25px;
-      z-index: 3; }
-  .main4 .main4-brand .main4-rightarrow {
-    display: none;
-    width: 52px;
-    height: 70px;
-    background: #ccc;
-    float: right;
-    position: absolute;
-    top: 83px;
-    right: 0;
-    opacity: 0.8;
-    z-index: 2; }
-    .main4 .main4-brand .main4-rightarrow .icon-xiangyou {
-      color: #fff;
-      font-size: 22px;
-      position: absolute;
-      right: 10px;
-      top: 25px;
-      z-index: 3; }
-  .main4 .main4-brand .brand1 {
-    height: 242px;
-    width: 1200px;
-    position: absolute;
-    left: 0;
-    top: 0; }
-    .main4 .main4-brand .brand1 li {
-      float: left;
-      width: 120px;
-      height: 120px;
-      border: 1px solid #f2f2f2;
-      margin: -1px 0 0 -1px;
-      box-sizing: border-box; }
-  .main4 .main4-brand .brand1 {
-    height: 242px;
-    width: 1200px; }
-    .main4 .main4-brand .brand1 li {
-      float: left;
-      width: 120px;
-      height: 120px;
-      border: 1px solid #f2f2f2;
-      margin: -1px 0 0 -1px;
-      box-sizing: border-box; }
+
+.main4-rightarrow {
+  display: none;
+  width: 52px;
+  height: 70px;
+  background: #ccc;
+  float: right;
+  position: absolute;
+  top: 83px;
+  right: 0;
+  z-index: 3; }
+
+.icon-ziyuan {
+  color: #fff;
+  font-size: 22px;
+  position: absolute;
+  left: 10px;
+  top: 25px;
+  z-index: 4; }
+
+.icon-xiangyou {
+  color: #fff;
+  font-size: 22px;
+  position: absolute;
+  right: 10px;
+  top: 25px;
+  z-index: 4; }
+
+.brand1 .brandbox {
+  position: absolute;
+  left: 0;
+  right: 0;
+  opacity: 0; }
+
+.brandbox li {
+  box-sizing: border-box;
+  border: 1px solid #ccc; }
+
+.brandbox {
+  margin-bottom: 30px; }
+
+.brand1 {
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  margin-bottom: 30px; }
 
 .footer {
   background: #fafafa;

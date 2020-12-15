@@ -5,86 +5,190 @@
     background-image: url("http://pic2.iqiyipic.com/common/20160907/aeb02196c5134738a34bd527c3bd5395.png")
 }
 
-.main4 {
-    .main4-brand:hover .main4-leftarrow {
-        display: block;
-    }
-    .main4-brand:hover .main4-rightarrow {
-        display: block;
-    }
-    .main4-brand {
-        margin-bottom: 50px;
-        height: 242px;
-        position: relative;
-        .main4-leftarrow {
-            display: none;
-            width: 52px;
-            height: 70px;
-            background: #ccc;
-            float: left;
-            position: absolute;
-            top: 83px;
-            opacity: 0.8;
-            z-index: 2;
-            .icon-ziyuan {
-                color: #fff;
-                font-size: 22px;
-                position: absolute;
-                left: 10px;
-                top: 25px;
-                z-index: 3;
-            }
-        }
-        .main4-rightarrow {
-            display: none;
-            width: 52px;
-            height: 70px;
-            background: #ccc;
-            float: right;
-            position: absolute;
-            top: 83px;
-            right: 0;
-            opacity: 0.8;
-            z-index: 2;
-            .icon-xiangyou {
-                color: #fff;
-                font-size: 22px;
-                position: absolute;
-                right: 10px;
-                top: 25px;
-                z-index: 3;
-            }
-        }
-        width: 1200px;
-        // height: 241px;
-        // background: skyblue;
-        .brand1 {
-            height: 242px;
-            width: 1200px;
-            // height: 241px;
-            position: absolute;
-            left: 0;
-            top: 0;
-            li {
-                float: left;
-                width: 120px;
-                height: 120px;
-                border: 1px solid #f2f2f2;
-                margin: -1px 0 0 -1px;
-                box-sizing: border-box;
-            }
-        }
-        .brand1 {
-            height: 242px;
-            width: 1200px;
-            li {
-                float: left;
-                width: 120px;
-                height: 120px;
-                border: 1px solid #f2f2f2;
-                margin: -1px 0 0 -1px;
-                box-sizing: border-box;
-            }
-        }
+.brand1 .brandbox li {
+    width: 120px;
+    height: 120px;
+    float: left;
+}
+
+.brand1 {
+    height: 240px;
+}
+
+.main4-brand {
+    position: relative;
+    ol {
+        position: absolute;
     }
 }
+
+.main4-leftarrow {
+    width: 52px;
+    height: 70px;
+    // background: #000;
+    background: #ccc;
+    float: left;
+    position: absolute;
+    top: 83px;
+    z-index: 2;
+    display: none;
+}
+
+.h4 {
+    margin-top: 30px;
+    height: 270px;
+}
+
+.main4-rightarrow:hover {
+    display: block;
+}
+
+.main4-rightarrow {
+    display: none;
+    width: 52px;
+    height: 70px;
+    // background: #000;
+    background: #ccc;
+    float: right;
+    position: absolute;
+    top: 83px;
+    right: 0;
+    // opacity: 0.8;
+    z-index: 3;
+}
+
+.icon-ziyuan {
+    color: #fff;
+    font-size: 22px;
+    position: absolute;
+    left: 10px;
+    top: 25px;
+    z-index: 4;
+}
+
+.icon-xiangyou {
+    color: #fff;
+    font-size: 22px;
+    position: absolute;
+    right: 10px;
+    top: 25px;
+    z-index: 4;
+}
+
+.brand1 .brandbox {
+    position: absolute;
+    left: 0;
+    right: 0;
+    opacity: 0;
+}
+
+.brandbox li {
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+}
+
+.brandbox {
+    margin-bottom: 30px;
+}
+
+.brand1 {
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    margin-bottom: 30px;
+}
+
+// .main4 {
+// .main4-brand:hover .main4-leftarrow {
+//     display: block;
+// }
+// .main4-brand:hover .main4-rightarrow {
+//     display: block;
+// }
+// .main4-brand {
+//     margin-bottom: 50px;
+//     height: 242px;
+//     position: relative;
+// .brand1 {
+//     .brandbox {
+//         li {
+//             width: 120px!important;
+//             height: 120px!important;
+//             float: left;
+//         }
+//     }
+// .main4-leftarrow {
+//     width: 52px;
+//     height: 70px;
+//     background: #000;
+//     // background: #ccc;
+//     float: left;
+//     position: absolute;
+//     top: 83px;
+//     // opacity: 0.8;
+//     z-index: 2;
+//     .icon-ziyuan {
+//         color: #fff;
+//         font-size: 22px;
+//         position: absolute;
+//         left: 10px;
+//         top: 25px;
+//         z-index: 3;
+//     }
+// }
+// .main4-rightarrow {
+//     width: 52px;
+//     height: 70px;
+//     background: #000;
+//     // background: #ccc;
+//     float: right;
+//     position: absolute;
+//     top: 83px;
+//     right: 0;
+//     // opacity: 0.8;
+//     z-index: 2;
+//     .icon-xiangyou {
+//         color: #fff;
+//         font-size: 22px;
+//         position: absolute;
+//         right: 10px;
+//         top: 25px;
+//         z-index: 3;
+//     }
+// }
+// width: 1200px;
+// height: 241px;
+// background: skyblue;
+// .brand1 {
+//     height: 242px;
+//     width: 1200px;
+//     // height: 241px;
+//     position: absolute;
+//     left: 0;
+//     top: 0;
+//     .li {
+//         height: 242px;
+//         width: 1200px;
+//         li {
+//             float: left;
+//             width: 120px;
+//             height: 120px;
+//             border: 1px solid #f2f2f2;
+//             margin: -1px 0 0 -1px;
+//             box-sizing: border-box;
+//         }
+//     }
+// }
+// .brand1 {
+//     height: 242px;
+//     width: 1200px;
+//     li {
+//         float: left;
+//         width: 120px;
+//         height: 120px;
+//         border: 1px solid #f2f2f2;
+//         margin: -1px 0 0 -1px;
+//         box-sizing: border-box;
+//     }
+// }
+// }
+// }

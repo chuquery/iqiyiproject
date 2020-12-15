@@ -5,13 +5,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="referrer" content="no-referrer" />
     <meta name="keywords" content="网上购物,网上商城,视频购物,明星服装,明星店铺,爱奇艺商城">
     <meta name="description" content="爱奇艺商城是国内首家以影视剧为依托，提供热门的影视剧、动漫的明星服装，周边商品的在线购买服务；正品低价、配送及时、放心购物。">
     <title>爱奇艺商城-购享娱乐</title>
     <link rel="stylesheet" href="./style/index.css">
     <link rel="stylesheet" href="./fonts/font_0ngpt0zj9c2/iconfont.css">
 </head>
-<script src="https://cdn.bootcdn.net/ajax/libs/require.js/2.3.6/require.min.js" defer async=true data-main="script/main.js" id="page" targetpage="index1_module"></script>
+<script src="https://cdn.bootcdn.net/ajax/libs/require.js/2.3.6/require.min.js" defer async=true data-main="script/main.js" id="currentpage" data-origin="index1_module"></script>
 
 <body>
     <!-- nav -->
@@ -50,6 +51,10 @@
                 <div class="headleft left">
                     <a href="//mall.iqiyi.com/" title="爱奇艺商城">
                         <img src="http://www.iqiyipic.com/common/fix/myCenter_images/logo1126.png" alt="爱奇艺商城" rseat="mall_logo">
+
+
+
+
                     </a>
                 </div>
                 <div class="headmid">
@@ -81,18 +86,37 @@
                     <div class="logoimg">
                         <a href="#"><img src="http://pic1.iqiyipic.com/common/20201207/b89d38e089d14323b09a636ae1547be8.jpg" alt="" width="50px" height="50px"></a>
                     </div>
-
+                    <div class="logoetext right">
+                        <p><b title="蓝牙戴头式耳机" class="logotext1">蓝牙戴头式耳机</b></p>
+                        <p><span title="￥29.9限时特惠" class="logotext2">￥29.9限时特惠</span></p>
+                    </div>
                 </div>
             </div>
 
         </div>
     </div>
     <!-- banner -->
-    <div class="bannernav">
-    </div>
-    <div class="wrapper">
-        <div class="bannav">
+    <div class="banner-nav" style=" background: #ee394b;">
+        <div class="wrapper">
+            <div class="nav-wrap" id="block-C" data-block-name="二级导航" data-asyn-pb="true" bi-data-asyn-pb="true">
 
+                <div class="bannernav">
+
+                    <ul class="nav-box" id="j-navLinkBar">
+                        <li class="indexActive active" data-elem="navLinkItem"><a class="first_nav" href="index.html" rseat="mall_C_nav_0">首页</a></li>
+
+                        <li data-elem="navLinkItem">
+                            <a class="first_nav" rseat="mall_C_nav_1" href="list.html">
+                                <span>FOURTRY<i class="nav_hotIcon" style="background-image:url('');"></i>
+                                </span>
+                            </a>
+
+                        </li>
+
+                    </ul>
+                </div>
+
+            </div>
         </div>
     </div>
     <!-- <div class="banner"> -->
@@ -146,11 +170,15 @@
     </div>
 
     <!-- main1 -->
+
+    <!--  -->
     <div class="wrapper">
         <div class="main1">
             <div class="main1nav">
                 <div class="mnavleft left">
-                    <span class="main1-nav" style=" background-image: url(' http:pic5.iqiyipic.com/common/20160907/ae2dd09618d545a595cc8c97be29a45d.png ')"></span>
+                    <span class="main3-nav">
+                                <img src="http://pic2.iqiyipic.com/common/20160907/aeb02196c5134738a34bd527c3bd5395.png" style="width: 36px;height: 36px;" alt="">         
+                          </span>
 
                     <span class="day">每日精选</span>
                     <span class="mod"></span>
@@ -226,9 +254,9 @@ SELECTED SPKIE
         <div class="wrapper">
             <div class="main1nav">
                 <div class="mnavleft left">
-                    <span class="main2-nav">
-                                    
-                    </span>
+                    <span class="main3-nav">
+                                <img src="http://pic2.iqiyipic.com/common/20160907/aeb02196c5134738a34bd527c3bd5395.png" style="width: 36px;height: 36px;" alt="">         
+                          </span>
 
                     <span class="day">今日特卖</span>
                     <span class="mod"></span>
@@ -661,10 +689,10 @@ SELECTED SPKIE
             <div class="main1nav">
                 <div class="mnavleft left">
                     <span class="main3-nav">
-                                   
+                          <img src="http://pic2.iqiyipic.com/common/20160907/aeb02196c5134738a34bd527c3bd5395.png" style="width: 36px;height: 36px;" alt="">         
                     </span>
 
-                    <span class="day">品牌精选</span>
+                    <span class="day" style="display: inline-block;padding-bottom: 10px">品牌精选</span>
                     <span class="mod"></span>
 
                     <span class="select">
@@ -680,76 +708,107 @@ SELECTED SPKIE
                 </div>
             </div>
 
-            <div class="main4-brand">
-                <a href="javascript:;" class="   main4-leftarrow">
-                    <span class="iconfont icon-ziyuan"></span>
-                </a>
-                <a href="javascript:;" class="   main4-rightarrow">
-                    <span class="iconfont icon-xiangyou"></span>
-                </a>
-
-                <div class="brand1">
-                    <a href="#">
-                        <li><img src="http://pic1.iqiyipic.com/common/20180718/f7fd62b890fc4a4e9fc4e2398a86bea5.jpg" alt="" style="width: 120px;height: 120px;"></li>
-                        <li><img src="http://pic1.iqiyipic.com/common/20180726/3d7108270a70407eafddba466877f013.jpg" alt="" style="width: 120px;height: 120px;"></li>
-                        <li><img src="http://pic3.iqiyipic.com/common/20180726/fa3ab70887664a2d879a7d347549bcf7.jpg" alt=""></li>
-                        <li><img src="http://pic8.iqiyipic.com/common/20160728/73570f705ba949cd951d71728e9b1880.jpg" alt="">
-                        </li>
-                        <li><img src="http://pic3.iqiyipic.com/common/20160728/89be4f56d3354780a4497b30a37662bf.jpg" alt=""></li>
-                        <li><img src="http://pic1.iqiyipic.com/common/20160728/32bd8d032c57498881f063d3ff5e72f7.jpg" alt=""></li>
-                        <li><img src="http://pic5.iqiyipic.com/common/20160728/a071a246874e40ddb7460fa6a37218e1.jpg" alt=""></li>
-                        <li><img src="http://pic9.iqiyipic.com/common/20160728/dd999cac702b48248b6834489bd710b5.jpg" alt=""></li>
-                        <li><img src="http://pic2.iqiyipic.com/common/20180718/7108d7c38c6b40098539684ca379bf5f.jpg" alt=""></li>
-                        <li><img src="http://pic6.iqiyipic.com/common/20160728/d88c34fdb10b41af8775d6322fed2ce1.jpg" alt=""></li>
-
-                    </a>
-                    <a href="#">
-                        <li><img src="http://pic1.iqiyipic.com/common/20180718/f7fd62b890fc4a4e9fc4e2398a86bea5.jpg" alt="" style="width: 120px;height: 120px;"></li>
-                        <li><img src="http://pic1.iqiyipic.com/common/20180726/3d7108270a70407eafddba466877f013.jpg" alt="" style="width: 120px;height: 120px;"></li>
-                        <li><img src="http://pic3.iqiyipic.com/common/20180726/fa3ab70887664a2d879a7d347549bcf7.jpg" alt=""></li>
-                        <li><img src="http://pic8.iqiyipic.com/common/20160728/73570f705ba949cd951d71728e9b1880.jpg" alt="">
-                        </li>
-                        <li><img src="http://pic3.iqiyipic.com/common/20160728/89be4f56d3354780a4497b30a37662bf.jpg" alt=""></li>
-                        <li><img src="http://pic1.iqiyipic.com/common/20160728/32bd8d032c57498881f063d3ff5e72f7.jpg" alt=""></li>
-                        <li><img src="http://pic5.iqiyipic.com/common/20160728/a071a246874e40ddb7460fa6a37218e1.jpg" alt=""></li>
-                        <li><img src="http://pic9.iqiyipic.com/common/20160728/dd999cac702b48248b6834489bd710b5.jpg" alt=""></li>
-                        <li><img src="http://pic2.iqiyipic.com/common/20180718/7108d7c38c6b40098539684ca379bf5f.jpg" alt=""></li>
-                        <li><img src="http://pic6.iqiyipic.com/common/20160728/d88c34fdb10b41af8775d6322fed2ce1.jpg" alt=""></li>
-
-                    </a>
-                </div>
-
-                <div class="brand1">
-                    <li><img src="http://pic0.iqiyipic.com/common/20160728/0984f879c08e4767b7aa559152454ac3.jpg" alt=""></li>
-                    <li><img src="http://pic7.iqiyipic.com/common/20160728/1fc7387347b54f2e92648cb0772510bd.jpg" alt=""></li>
-                    <li><img src="http://pic1.iqiyipic.com/common/20160728/7e3a56f73bce49ce9ade6a9f9857e31c.jpg" alt=""></li>
-                    <li><img src="http://pic6.iqiyipic.com/common/20160728/d88c34fdb10b41af8775d6322fed2ce1.jpg" alt=""></li>
-                    <li><img src="http://pic5.iqiyipic.com/common/20160728/a071a246874e40ddb7460fa6a37218e1.jpg" alt=""></li>
-                    <li><img src="http://pic9.iqiyipic.com/common/20160728/dd999cac702b48248b6834489bd710b5.jpg" alt=""></li>
-                    <li><img src="http://pic2.iqiyipic.com/common/20180718/7108d7c38c6b40098539684ca379bf5f.jpg" alt=""></li>
-                    <li><img src="http://pic6.iqiyipic.com/common/20160728/d88c34fdb10b41af8775d6322fed2ce1.jpg" alt=""></li>
-                    <li><img src="http://pic0.iqiyipic.com/common/20160728/0984f879c08e4767b7aa559152454ac3.jpg" alt=""></li>
-                    <li><img src="http://pic7.iqiyipic.com/common/20160728/1fc7387347b54f2e92648cb0772510bd.jpg" alt=""></li>
-                    <li><img src="http://pic1.iqiyipic.com/common/20160728/7e3a56f73bce49ce9ade6a9f9857e31c.jpg" alt=""></li>
-                    <li><img src="http://pic0.iqiyipic.com/common/20160728/0984f879c08e4767b7aa559152454ac3.jpg" alt=""></li>
-                    <li><img src="http://pic7.iqiyipic.com/common/20160728/1fc7387347b54f2e92648cb0772510bd.jpg" alt=""></li>
-                    <li><img src="http://pic1.iqiyipic.com/common/20160728/7e3a56f73bce49ce9ade6a9f9857e31c.jpg" alt=""></li>
-                    <li><img src="http://pic0.iqiyipic.com/common/20160728/0984f879c08e4767b7aa559152454ac3.jpg" alt=""></li>
-                    <li><img src="http://pic7.iqiyipic.com/common/20160728/1fc7387347b54f2e92648cb0772510bd.jpg" alt=""></li>
-                    <li><img src="http://pic1.iqiyipic.com/common/20160728/7e3a56f73bce49ce9ade6a9f9857e31c.jpg" alt=""></li>
-                    <li><img src="http://pic0.iqiyipic.com/common/20160728/0984f879c08e4767b7aa559152454ac3.jpg" alt=""></li>
-                    <li><img src="http://pic7.iqiyipic.com/common/20160728/1fc7387347b54f2e92648cb0772510bd.jpg" alt=""></li>
-                    <li><img src="http://pic1.iqiyipic.com/common/20160728/7e3a56f73bce49ce9ade6a9f9857e31c.jpg" alt=""></li>
-                </div>
-
-
-
-
-            </div>
-
-            <!-- m4-brandover -->
         </div>
+        <!-- .he4  -->
 
+        <div class="h4">
+            <div class="main4-brand">
+                <div class="main4-leftarrow">
+                    <a href="javascript:;">
+                        <span class="iconfont icon-ziyuan"></span>
+                    </a>
+                </div>
+
+                <div class="main4-rightarrow">
+                    <a href="javascript:;">
+                        <span class="iconfont icon-xiangyou"></span>
+                    </a>
+                </div>
+
+                <ol>
+                    <li class="active" style="opacity: 0"></li>
+                    <li style="opacity: 0"></li>
+
+                </ol>
+                <!-- 40个li -->
+                <div class="brand1">
+
+                    <!-- 第一个20个li -->
+                    <div class="brandbox">
+                        <a href="#">
+                            <li><img src="http://pic1.iqiyipic.com/common/20180718/f7fd62b890fc4a4e9fc4e2398a86bea5.jpg" alt="" style="width: 120px;height: 120px;"></li>
+
+                            <li><img src="http://pic1.iqiyipic.com/common/20180726/3d7108270a70407eafddba466877f013.jpg" alt="" style="width: 120px;height: 120px;"></li>
+                            <li><img src="http://pic3.iqiyipic.com/common/20180726/fa3ab70887664a2d879a7d347549bcf7.jpg" alt=""></li>
+                            <li><img src="http://pic0.iqiyipic.com/common/20160728/0984f879c08e4767b7aa559152454ac3.jpg" alt=""></li>
+                            <li><img src="http://pic7.iqiyipic.com/common/20160728/1fc7387347b54f2e92648cb0772510bd.jpg" alt=""></li>
+                            <li><img src="http://pic1.iqiyipic.com/common/20160728/7e3a56f73bce49ce9ade6a9f9857e31c.jpg" alt=""></li>
+                            <li><img src="http://pic5.iqiyipic.com/common/20160728/a071a246874e40ddb7460fa6a37218e1.jpg" alt=""></li>
+                            <li><img src="http://pic9.iqiyipic.com/common/20160728/dd999cac702b48248b6834489bd710b5.jpg" alt=""></li>
+                            <li><img src="http://pic2.iqiyipic.com/common/20180718/7108d7c38c6b40098539684ca379bf5f.jpg" alt=""></li>
+                            <li><img src="http://pic6.iqiyipic.com/common/20160728/d88c34fdb10b41af8775d6322fed2ce1.jpg" alt=""></li>
+                            <li><img src="http://pic1.iqiyipic.com/common/20180718/f7fd62b890fc4a4e9fc4e2398a86bea5.jpg" alt="" style="width: 120px;height: 120px;"></li>
+                            <li><img src="http://pic1.iqiyipic.com/common/20180726/3d7108270a70407eafddba466877f013.jpg" alt="" style="width: 120px;height: 120px;"></li>
+                            <li><img src="http://pic3.iqiyipic.com/common/20180726/fa3ab70887664a2d879a7d347549bcf7.jpg" alt=""></li>
+                            <li><img src="http://pic8.iqiyipic.com/common/20160728/73570f705ba949cd951d71728e9b1880.jpg" alt="">
+                            </li>
+                            <li><img src="http://pic3.iqiyipic.com/common/20160728/89be4f56d3354780a4497b30a37662bf.jpg" alt=""></li>
+                            <li><img src="http://pic1.iqiyipic.com/common/20160728/32bd8d032c57498881f063d3ff5e72f7.jpg" alt=""></li>
+                            <li><img src="http://pic2.iqiyipic.com/common/20180718/7108d7c38c6b40098539684ca379bf5f.jpg" alt=""></li>
+                            <li><img src="http://pic6.iqiyipic.com/common/20160728/d88c34fdb10b41af8775d6322fed2ce1.jpg" alt=""></li>
+
+                            <li><img src="http://pic5.iqiyipic.com/common/20160728/a071a246874e40ddb7460fa6a37218e1.jpg" alt=""></li>
+                            <li><img src="http://pic9.iqiyipic.com/common/20160728/dd999cac702b48248b6834489bd710b5.jpg" alt=""></li>
+
+
+                        </a>
+
+                    </div>
+
+                    <!-- 第一个20个liend-->
+                    <!-- 第2个20个li -->
+
+                    <div class="brandbox" style="opacity: 1">
+                        <a href="#">
+                            <!-- 20 -->
+                            <li><img src="http://pic5.iqiyipic.com/common/20160728/a071a246874e40ddb7460fa6a37218e1.jpg" alt=""></li>
+                            <li><img src="http://pic9.iqiyipic.com/common/20160728/dd999cac702b48248b6834489bd710b5.jpg" alt=""></li>
+
+                            <li><img src="http://pic1.iqiyipic.com/common/20180718/f7fd62b890fc4a4e9fc4e2398a86bea5.jpg" alt="" style="width: 120px;height: 120px;"></li>
+
+                            <li><img src="http://pic1.iqiyipic.com/common/20180726/3d7108270a70407eafddba466877f013.jpg" alt="" style="width: 120px;height: 120px;"></li>
+                            <li><img src="http://pic3.iqiyipic.com/common/20180726/fa3ab70887664a2d879a7d347549bcf7.jpg" alt=""></li>
+                            <li><img src="http://pic8.iqiyipic.com/common/20160728/73570f705ba949cd951d71728e9b1880.jpg" alt="">
+                            </li>
+                            <li><img src="http://pic3.iqiyipic.com/common/20160728/89be4f56d3354780a4497b30a37662bf.jpg" alt=""></li>
+                            <li><img src="http://pic1.iqiyipic.com/common/20160728/32bd8d032c57498881f063d3ff5e72f7.jpg" alt=""></li>
+                            <li><img src="http://pic5.iqiyipic.com/common/20160728/a071a246874e40ddb7460fa6a37218e1.jpg" alt=""></li>
+                            <li><img src="http://pic9.iqiyipic.com/common/20160728/dd999cac702b48248b6834489bd710b5.jpg" alt=""></li>
+                            <li><img src="http://pic1.iqiyipic.com/common/20180718/f7fd62b890fc4a4e9fc4e2398a86bea5.jpg" alt="" style="width: 120px;height: 120px;"></li>
+                            <li><img src="http://pic0.iqiyipic.com/common/20160728/0984f879c08e4767b7aa559152454ac3.jpg" alt=""></li>
+                            <li><img src="http://pic7.iqiyipic.com/common/20160728/1fc7387347b54f2e92648cb0772510bd.jpg" alt=""></li>
+                            <li><img src="http://pic1.iqiyipic.com/common/20160728/7e3a56f73bce49ce9ade6a9f9857e31c.jpg" alt=""></li>
+                            <li><img src="http://pic3.iqiyipic.com/common/20160728/89be4f56d3354780a4497b30a37662bf.jpg" alt=""></li>
+                            <li><img src="http://pic1.iqiyipic.com/common/20160728/32bd8d032c57498881f063d3ff5e72f7.jpg" alt=""></li>
+                            <li><img src="http://pic5.iqiyipic.com/common/20160728/a071a246874e40ddb7460fa6a37218e1.jpg" alt=""></li>
+                            <li><img src="http://pic9.iqiyipic.com/common/20160728/dd999cac702b48248b6834489bd710b5.jpg" alt=""></li>
+                            <li><img src="http://pic2.iqiyipic.com/common/20180718/7108d7c38c6b40098539684ca379bf5f.jpg" alt=""></li>
+                            <li><img src="http://pic6.iqiyipic.com/common/20160728/d88c34fdb10b41af8775d6322fed2ce1.jpg" alt=""></li>
+
+                        </a>
+
+                    </div>
+                    <!-- 第2个20个liend-->
+
+
+                </div>
+                <!-- 40个liend -->
+                <!-- m4-brandover -->
+            </div>
+            <!-- brand4end -->
+        </div>
+        <!-- h4end -->
+        <!-- wrapper and -->
     </div>
     <!-- footer -->
     <div class="footer">
@@ -931,9 +990,21 @@ SELECTED SPKIE
             </div>
 
             <div class="copyright" style="padding: 5px 0 5px 0;">
-                <a href="//www.iqiyi.com/common/announce.html" target="_blank" title="反盗版和反盗链权利声明" rseat="反盗版和反盗链权利声明">反盗版和反盗链权利声明</a>&nbsp;&nbsp;&nbsp; Copyright © 2020 <a href="//www.iqiyi.com/" title="爱奇艺" rseat="爱奇艺">爱奇艺</a> <span rseat="© 2020 iQIYI.COM"> All Rights Reserved</span>
+                <a href="http://www.iqiyi.com/common/announce.html" target="_blank" title="反盗版和反盗链权利声明" rseat="反盗版和反盗链权利声明">反盗版和反盗链权利声明</a>&nbsp;&nbsp;&nbsp; Copyright © 2020 <a href="//www.iqiyi.com/" title="爱奇艺" rseat="爱奇艺">爱奇艺</a> <span rseat="© 2020 iQIYI.COM"> All Rights Reserved</span>
             </div>
         </div>
+    </div>
+
+    <!-- 侧边导航栏 -->
+    <div class="toTop">
+        <ul>
+            <li>
+                <a href="#"></a>
+            </li>
+            <li>
+                <a href="#"><img src="http://www.iqiyipic.com/common/fix/h5_qiyiShop_img/baseRedScrollBar.png" alt=""></a>
+            </li>
+        </ul>
     </div>
 </body>
 

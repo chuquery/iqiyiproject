@@ -1,0 +1,378 @@
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.list {
+    width: 1160px;
+    margin: 0 auto;
+    font-size: 14px;
+}
+
+.list li {
+    width: 230px;
+    padding: 10px;
+    float: left;
+    margin: 0 10px 10px 0;
+    border: 1px solid #ccc;
+    height: 350px;
+    position: relative;
+}
+
+.list li p {
+    width: 200px;
+    height: 48px;
+    line-height: 24px;
+    overflow: hidden;
+}
+
+.list li img {
+    width: 234px;
+    height: 260px;
+    display: block;
+}
+
+.list li span {
+    margin-top: 20px;
+    display: block;
+    color: red;
+}
+
+.mainlist {
+    width: 100%;
+    height: 1500px;
+    /* background: skyblue; */
+}
+
+button {
+    width: 200px;
+    height: 50px;
+    margin-left: -20px;
+    /* background: #fff; */
+    border: none;
+    cursor: pointer;
+    background-color: #777;
+    outline: none;
+}
+
+.iconfont {
+    font-size: 20px;
+    width: 20px;
+}
+
+.listbutton {
+    display: inline-block;
+    width: 150px;
+    height: 40px;
+    border: 1px solid #f2f2f2;
+    text-align: center;
+    font-size: 20px;
+    line-height: 40px;
+}
+
+
+/* 头部侧边栏 */
+
+.searResult_page .main-side {
+    width: 190px;
+}
+
+.qypage-1200 .main-side {
+    width: 230px;
+}
+
+.main-side {
+    float: left;
+    display: inline;
+    width: 111px;
+    /* margin-left: -100%; */
+}
+
+.searchResult_L {
+    border: 1px solid #e7e7e7;
+    width: 188px;
+}
+
+.searchResult_Ltitle {
+    font-size: 14px;
+    color: #333;
+    padding-left: 10px;
+    height: 38px;
+    line-height: 38px;
+    border-bottom: 1px solid #e7e7e7;
+    background: #f7f7f7;
+}
+
+.searchResult_LBd {
+    padding-left: 10px;
+    padding-top: 20px;
+}
+
+.searchResult_LUl {
+    margin-bottom: 18px;
+}
+
+ul,
+ol {
+    list-style: none outside none;
+}
+
+.searchResult_LUl li {
+    line-height: 20px;
+    padding-left: 25px;
+    margin-bottom: 8px;
+}
+
+.searchResult_LUl ul.ul_inner {
+    margin-bottom: 0;
+    zoom: 1;
+}
+
+.searchResult_LUl li {
+    line-height: 20px;
+    padding-left: 25px;
+    margin-bottom: 8px;
+}
+
+.search_claLink {
+    color: #777;
+    font-size: 0;
+    display: block;
+    height: 20px;
+    line-height: 20px;
+}
+
+.search_claLink .txt {
+    font-size: 14px;
+    display: inline-block;
+    vertical-align: middle;
+    width: 145px;
+    height: 20px;
+    line-height: 20px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    cursor: hand;
+}
+
+
+/* 头部侧边 */
+
+
+/* 头部中间 */
+
+.mod-searchSort {
+    background-color: #f7f7f7;
+    border: 1px solid #e7e7e7;
+    *zoom: 1;
+}
+
+.mod-searchFilter_mix {
+    position: relative;
+    border: 1px solid #e7e7e7;
+    margin-bottom: 48px;
+    z-index: 5;
+}
+
+.mod-searchFilter_mix .mod-searchFilter_signle:first-child {
+    border-top: 0;
+}
+
+.mod-searchFilter_mix .mod-searchFilter_signle {
+    border: 0;
+    border-top: 1px dotted #e7e7e7;
+    margin-bottom: 0;
+}
+
+.mod-searchFilter_signle {
+    overflow: hidden;
+    position: relative;
+    min-height: 40px;
+    height: auto!important;
+    padding: 0 80px 0 20px;
+    margin-bottom: 10px;
+    border: 1px solid #e7e7e7;
+    background-color: #fff;
+    *zoom: 1;
+}
+
+.mod-searchFilter_signle .filter_lbl {
+    display: inline;
+    float: left;
+    width: 80px;
+    margin-top: 11px;
+    font-weight: bold;
+    color: #777;
+}
+
+user agent stylesheet label {
+    cursor: default;
+}
+
+.searchResult_R .mod-searchFilter_signle .filter_wrap {
+    width: 780px;
+}
+
+.mod-searchFilter_signle .filter_wrap {
+    display: inline;
+    float: left;
+    width: 980px;
+    padding: 4px 0;
+}
+
+.collapse_box .mod-filter_list {
+    height: 32px;
+    overflow: hidden;
+}
+
+.mod-filter_list {
+    overflow-y: auto;
+    max-height: 168px;
+}
+
+.mod-filter_list {
+    *zoom: 1;
+}
+
+.mod-filter_list li {
+    display: inline;
+    float: left;
+    width: 80px;
+    padding: 7px 0;
+}
+
+.mod-filter_list li .link_item {
+    width: 100%;
+    height: 18px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    display: block;
+}
+
+a {
+    color: #777;
+}
+
+.mod-searchFilter_mix .filter-more {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    left: 0;
+    bottom: -29px;
+    z-index: 10;
+}
+
+.mod-searchFilter_mix .filter-more .more_unfold,
+.mod-searchFilter_mix .filter-more .more_fold {
+    display: inline-block;
+    width: 150px;
+    height: 28px;
+    border: 1px solid #e7e7e7;
+    border-top: 0;
+    background-color: #fff;
+    line-height: 28px;
+    color: #777;
+}
+
+.mod-searchFilter_mix .mod-searchFilter_signle {
+    border: 0;
+    border-top: 1px dotted #e7e7e7;
+    margin-bottom: 0;
+}
+
+.mod-searchFilter_signle {
+    overflow: hidden;
+    position: relative;
+    min-height: 40px;
+    height: auto!important;
+    padding: 0 80px 0 20px;
+    margin-bottom: 10px;
+    border: 1px solid #e7e7e7;
+    background-color: #fff;
+    *zoom: 1;
+}
+
+.mod-searchFilter_signle .filter_lbl {
+    display: inline;
+    float: left;
+    width: 80px;
+    margin-top: 11px;
+    font-weight: bold;
+    color: #777;
+}
+
+.searchResult_R .mod-searchFilter_signle .filter_wrap {
+    width: 780px;
+}
+
+.mod-searchFilter_signle .filter_wrap {
+    display: inline;
+    float: left;
+    width: 980px;
+    padding: 4px 0;
+}
+
+mod-searchFilter_signle .filter_lbl {
+    display: inline;
+    float: left;
+    width: 80px;
+    margin-top: 11px;
+    font-weight: bold;
+    color: #777;
+}
+
+.mod-searchFilter_signle .filter_lbl {
+    display: inline;
+    float: left;
+    width: 110px;
+    margin-top: 11px;
+    font-weight: bold;
+    color: #777;
+}
+
+.searchResult_Ltitle {
+    font-size: 14px;
+    color: #333;
+    padding-left: 53px;
+    height: 38px;
+    line-height: 38px;
+    border-bottom: 1px solid #e7e7e7;
+    background: #f7f7f7;
+}
+
+.mod-searchFilter_signle .filter_wrap {
+    display: inline;
+    float: left;
+    width: 780px;
+    padding: 4px 0;
+}
+
+.mainlist {
+    margin-left: 97px;
+    width: 100%;
+    height: 2035px;
+}
+
+button {
+    border: #f2f2f2 1px solid;
+    width: 135px;
+    height: 50px;
+    margin-bottom: 20px;
+    margin-left: -20px;
+    background: #fff;
+}
+
+
+/* button:active {
+    border: #f2f2f2 1px solid;
+} */
+
+.button {
+    margin-left: 20px;
+    width: 100%;
+}
+
+
+/* 头部中间 */

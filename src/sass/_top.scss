@@ -95,7 +95,7 @@
     }
     
     .headright {
-        background: pink;
+        // background: pink;
         width: 208px;
         height: 50px;
     }
@@ -134,4 +134,86 @@
     .bus_icon {
         @extend %_icon;
         background-position: -60px 0px;
+    }
+    
+    .banner-nav {
+        height: 40px;
+        background: #ee394b;
+        width: 100%;
+    }
+    
+    .nav-wrap {
+        height: 40px;
+        background: #ee394b;
+        font-family: 'Microsoft YaHei';
+        .bannernav {
+            width: 1200px;
+            margin: 0 auto;
+            position: relative;
+            z-index: 100;
+            height: 40px;
+            overflow: initial;
+            .nav-box {
+                float: left;
+                width: 860px;
+                height: 40px;
+                li {
+                    display: inline-block;
+                    float: left;
+                    position: relative;
+                    text-align: center;
+                    height: 40px;
+                    line-height: 40px;
+                    padding: 0 25px;
+                    border-bottom: 3px solid transparent;
+                    box-sizing: border-box;
+                    transition: border-bottom 1s;
+                    -webkit-transition: border-bottom 1s;
+                    _width: 100px;
+                }
+            }
+        }
+    }
+    
+    .nav-box li.indexActive {
+        width: 82px;
+    }
+    
+    .nav-box li.active {
+        border-bottom: 3px solid #cc0e2b;
+        font-weight: bold;
+    }
+    
+    .nav-box .first_nav {
+        display: block;
+        height: 40px;
+        line-height: 40px;
+        vertical-align: middle;
+        text-align: center;
+        font-size: 16px;
+        color: #fff;
+        position: relative;
+    }
+    
+    .headright {
+        position: relative;
+    }
+    
+    .logoimg {
+        width: 60px;
+    }
+    
+    .logoetext {
+        font-size: 16px;
+        color: #999;
+        position: absolute;
+        line-height: 20px;
+        right: 30px;
+        top: 7px;
+        margin-bottom: 20px;
+    }
+    
+    .logotext2 {
+        display: block;
+        padding-bottom: 10px;
     }
