@@ -110,23 +110,63 @@
         </div>
     </div>
     <!-- 头部相同end -->
-    <div class="wrapper">
-        <div class="goodsinfo">
-            <div class="box">
+    <!-- <div class="detail_toolbar" data-wrapper="basesbar" id="J_toolbar" style="right: 0px; position: fixed;">
+        <div class="toolbar_top" style="height:25%"></div>
+        <ul class="toolbar_ul">
+            <li class="item_car">
+                <a class="toolbar_car" href="//mall.iqiyi.com/shoppingcart.html" rseat="mall_toolbar_cartbox">
+                    <i class="icon-shopping-cart"></i>
+                    <span class="toolbar_carInfo">购物车</span>
+                    <span class="toolbar_nub" data-elem="cartnum">0</span>
+                    <i class="toolbar_toogel"></i>
+                </a>
+            </li>
+        </ul>
+        <ul class="toolbar_backUl">
+            <li class="item_code">
+                <a class="toolbar_codeLink" href="javascript:void(0);">
+                    <i class="toolbar_codeIcon"></i>
+                    <div class="code_box" style="">
+                        <p class="code_title">移动下单 快速支付</p>
+                        <img class="pho_payMent_codeImg" src="http://qrcode.iqiyipic.com/qrcoder/?data=http%3A%2F%2Fmall.iqiyi.com%2Fitem%2Ffohnggip60%3Fodfrm%3D_PC_QRCODE_so&amp;&amp;salt=0ce8908c2f9ab3fa3f9e0b569356b632&amp;width=145&amp;property=0">
+                    </div>
+                    <i class="toolbar_toogel"></i>
+                </a>
+            </li>
+            <li>
+                <a class="toolbar_feedback" href="//www.iqiyi.com/common/mallhelpandsuggest.html?entry=product_detail_page" target="_blank" title="反馈" rseat="反馈">
+                    <i class="toolbar_feedbackIcon"></i>
+                </a>
+            </li>
+            <li data-totopbtn="totop" data-totopbtn-time="150" data-totopbtn-hoverclass="selected" data-totopbtn-undownclass="unEffective" style="visibility: visible;" alt="回顶部" title="回顶部">
+                <a class="toolbar_goTopLink" href="javascript:void(0);" alt="回顶部" title="回顶部" rseat="回顶部">
+                    <i class="toolbar_goTopIcon"></i>
+                </a>
+            </li>
+        </ul>
+    </div> -->
+    <!-- 侧边栏 -->
+    <div class="wrapper" style="border: 1px solid #ccc">
+
+        <div class="goodsinfo" style=" margin: 0px 0px 50px 40px;">
+            <div class="listad1-box" style="position: relative;">
+                <p class="listad1-title">首页></p>
+            </div>
+            <div class="listbox">
                 <a href="cart.html" target="_blank">进入购物车</a>
             </div>
-            <div class="wrap">
+            <div class="wrap" style="border: 1px solid #ccc;padding-left: 20px;padding-right: 10px;width: 420px;height: 500px;">
                 <div id="spic">
                     <img src="" alt="" id="smallpic">
                     <div id="sf"></div>
                 </div>
-                <div id="bf">
+                <div id="bf" style="margin-left: 40px;width: 420px;height: 400px;">
                     <img src="" alt="" id="bpic">
                 </div>
-                <div id="ulist">
+                <div id="ulist" style="z-index: 4;width: 400px;height: 50px;">
                     <a href="javascript:;" id="left">&lt;</a>
-                    <div id="list">
-                        <ul>
+                    <div id="list" style="z-index: 8;width: 400px;height: 50px;">
+                        <ul style="height: 40px;width: 40px;z-index: 12;">
                             <!-- 渲染放大镜下面的小图 -->
                         </ul>
                     </div>
@@ -135,12 +175,14 @@
             </div>
             <div class="goodsinfo-word">
                 <div class="p-name">
-                    <a class="loadtitle" href="##"></a>
+                    <a class="loadtitle" href="##" style="font-size: 20px;color: #222222;"></a>
                 </div>
-                <div class="p-price"><strong><span>价&nbsp;&nbsp;格:</span><em>￥</em><i class="loadpcp"></i></strong></div>
+                <div class="p-price" style=" width: 500px;
+                height: 70px;"><strong style="font-size: 20px;line-height: 70px;"><span >价&nbsp;&nbsp;格:</span><em style="color: #ee394b">￥</em><i class="loadpcp" style="color: #ee394b"></i></strong></div>
                 <div class="p-btn">
-                    <input type="text" id="count" value="1" />
-                    <a href="javascript:;">加入购物车</a>
+                    <div class="p-btn-num" style="height: 50px;width: 320px;font-size: 20px;line-height: 50px;color: #666;margin-left: 60px;position: relative;">数量：<input style="position: absolute;left:10px;height: 30px;top: 10px;" type="text" id="count" value="1" /></div>
+                    <div class="cart-box" style="position: relative;height: 50px;width: 300px;margin-top: 20px"> <a href="cart.html" style="position: absolute; left: 50px;width: 200px;">加入购物车</a></div>
+
                     <!-- void(0) -->
                 </div>
             </div>
@@ -329,6 +371,17 @@
                 <a href="http://www.iqiyi.com/common/announce.html" target="_blank" title="反盗版和反盗链权利声明" rseat="反盗版和反盗链权利声明">反盗版和反盗链权利声明</a>&nbsp;&nbsp;&nbsp; Copyright © 2020 <a href="//www.iqiyi.com/" title="爱奇艺" rseat="爱奇艺">爱奇艺</a> <span rseat="© 2020 iQIYI.COM"> All Rights Reserved</span>
             </div>
         </div>
+    </div>
+    <!-- 侧边导航栏 -->
+    <div class="baseScrollBar" style="position: fixed; left: 50%;top:500px; bottom: 10px; display: block;width: 30px;height: 80px;margin-left: 600px" data-widget-wrapper="basescrollbar" data-parent-width="1200" data-private-display="block">
+        <ul class="baseScrollBar_menus">
+            <li>
+                <a href="//www.iqiyi.com/common/mallhelpandsuggest.html?entry=mall_head_page" target="_blank" class="feedback" title="反馈" rseat="反馈"></a>
+            </li>
+            <li data-widget-totopbtn="totop" data-totopbtn-time="150" data-totopbtn-hoverclass="selected" data-totopbtn-undownclass="unEffective" alt="回顶部" title="回顶部" class="">
+                <a href="#" class="baseToTop" alt="回顶部" title="回顶部" rseat="回顶部"></a>
+            </li>
+        </ul>
     </div>
 </body>
 

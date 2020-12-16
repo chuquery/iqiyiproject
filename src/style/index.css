@@ -143,13 +143,13 @@ a {
   height: 12px;
   margin-top: 10px;
   margin-right: 3px;
-  background: url("http://www.iqiyipic.com/common/fix/h5_qiyiShop_img/topMenuCar_redicon.png") no-repeat; }
+  background: url("https://www.iqiyipic.com/common/fix/h5_qiyiShop_img/topMenuCar_redicon.png") no-repeat; }
 
 .topMenuCar_icon {
-  background: url("http://www.iqiyipic.com/common/fix/h5_qiyiShop_img/topMenuCar_redicon.png") no-repeat; }
+  background: url("https://www.iqiyipic.com/common/fix/h5_qiyiShop_img/topMenuCar_redicon.png") no-repeat; }
 
 .topNav_icon {
-  background: url("http://www.iqiyipic.com/common/fix/h5_qiyiShop_img/topMenu_redicon.png") no-repeat; }
+  background: url("https://www.iqiyipic.com/common/fix/h5_qiyiShop_img/topMenu_redicon.png") no-repeat; }
 
 .myFavo_icon {
   background-position: -110px 0px; }
@@ -866,6 +866,54 @@ body {
   .copyright span {
     font-size: 12px !important;
     color: #666 !important; }
+
+.totop ul {
+  width: 30px;
+  height: 80px; }
+  .totop ul li {
+    width: 30px;
+    height: 40px;
+    background: red; }
+
+.baseScrollBar_menus {
+  width: 36px; }
+
+.baseScrollBar_menus .feedback {
+  background-position: -50px -82px;
+  margin-bottom: 10px; }
+
+.baseScrollBar_menus .baseToTop,
+.baseScrollBar_menus .feedback {
+  display: block;
+  width: 36px;
+  height: 36px;
+  background-image: url("../images/baseRedScrollBar.png");
+  cursor: pointer; }
+
+.baseScrollBar_menus .baseToTop {
+  background-position: -50px -46px; }
+
+.baseScrollBar_menus .baseToTop,
+.baseScrollBar_menus .feedback {
+  display: block;
+  width: 36px;
+  height: 36px;
+  background-image: url("../images/baseRedScrollBar.png");
+  cursor: pointer; }
+
+.feedback {
+  background: url("../images/baseRedScrollBar.png") no-repeat -50px -82px; }
+
+.baseScrollBar_menus {
+  height: 60px;
+  width: 36px; }
+  .baseScrollBar_menus ul {
+    height: 60px;
+    width: 36px; }
+    .baseScrollBar_menus ul li {
+      width: 36px;
+      height: 60px;
+      background-color: #f00; }
 
 .wrapper {
   width: 1200px;

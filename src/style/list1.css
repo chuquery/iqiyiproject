@@ -374,5 +374,12 @@ button {
     width: 100%;
 }
 
+.listad-li:hover .listad-color {
+    color: red;
+}
+
+
+/* listad-color */
+
 
 /* 头部中间 */

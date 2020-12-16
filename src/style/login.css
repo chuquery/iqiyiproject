@@ -1,0 +1,45 @@
+.wrapper1 {
+    width: 1200px;
+    margin: 0 auto;
+    position: relative;
+}
+
+
+/* fieldset {
+    position: absolute;
+    top: 180px;
+    left: 1040px;
+    /* height: 500px;
+    width: 500px;
+    background: #000; */
+
+
+/* } */
+
+
+/* legend {
+    height: 50px;
+    width: 250px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    font-size: 40px;
+} */
+
+form p {
+    line-height: 50px;
+    padding-left: 30px;
+}
+
+form p input {
+    height: 30px;
+    outline: none;
+    s border-radius: 5px;
+}
+
+#login {
+    width: 100px;
+    height: 40px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}

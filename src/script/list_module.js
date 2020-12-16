@@ -24,10 +24,10 @@ define(['pagination', 'jlazyload'], function() {
                 let $strhtml = '';
                 $.each(data, function(index, value) {
                     $strhtml += `
-                        <li>
+                        <li class='listad-li'>
                             <a href="detail.html?sid=${value.sid}">
                                 <img class="lazy" data-original="${value.url}" width="200" height="200"/>
-                                <p>${value.title}</p>
+                                <p   class='listad-color'>${value.title}</p>
                                 <span>￥${value.price}</span>
                             </a>
                         </li>

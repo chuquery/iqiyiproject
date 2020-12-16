@@ -3,9 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="referrer" content="no-referrer" />
+    <title>登录爱奇艺商城</title>
     <link rel="stylesheet" href="style/index.css">
     <link rel="stylesheet" href="style/list.css">
+    <link rel="stylesheet" href="style/login.css">
 </head>
 
 <body>
@@ -45,7 +47,7 @@
             <div class="head1">
                 <div class="headleft left">
                     <a href="//mall.iqiyi.com/" title="爱奇艺商城">
-                        <img src="http://www.iqiyipic.com/common/fix/myCenter_images/logo1126.png" alt="爱奇艺商城" rseat="mall_logo">
+                        <img src="https://www.iqiyipic.com/common/fix/myCenter_images/logo1126.png" alt="爱奇艺商城" rseat="mall_logo">
                     </a>
                 </div>
                 <div class="headmid">
@@ -84,23 +86,29 @@
     </div>
     <div class="wrapper">
         <ul class="bannerimg1">
-            <li class="list-ad">
+            <li class="list-ad" style="width: 1200px;">
                 <a href="#">
-                    <img src="http://pic3.iqiyipic.com/common/20200218/5b0d6aa4382f4cfaa61f592a5b078fbb.jpg" alt="">
+                    <img src="http://pic3.iqiyipic.com/common/20200218/5b0d6aa4382f4cfaa61f592a5b078fbb.jpg" alt="" style="width:1200px;height: 250px;;">
                 </a>
             </li>
         </ul>
     </div>
     <!-- .main-list -->
     <div class="wrapper1">
-        <fieldset style="width:400px;height: 400px;margin:0 auto;" class="fieldlist">
-            <legend>用户登录</legend>
+
+        <fieldset style="width:320px;height: 270px;margin:0 auto;background: #fff; position: absolute;
+        top:-270px;
+        left: 800px;opacity: 0.8; " class="fieldlist">
+
+            <legend style="line-height: 20px;text-align: 
+            center;padding-top: 20px;"><img src="https:www.iqiyipic.com/common/fix/v3-login/login-logo.png" style="width: 320px;height: 50px;">用户登录</legend>
             <form action="" method="post">
                 <p><label for="">用户名：</label><input type="text" name="username" id="username"></p>
                 <p><label for="">密　码：</label><input type="password" name="password" id="password"></p>
-                <p><input type="button" value="登录" id="login">
+                <p>
+                    <a href="./index1.html"><input type="button" value="登录" id="login"> </a>
                     <!-- <input type="button" value="注册" id="login">  -->
-                    <a href="./regisrty.html"><input type="button" value="注册" id="login"> </a>
+                    <a href="./regisrty.html"><input type="button" value="注册" id="login" style="margin-left: 25px"> </a>
                 </p>
             </form>
         </fieldset>
@@ -289,6 +297,17 @@
                 <a href="//www.iqiyi.com/common/announce.html" target="_blank" title="反盗版和反盗链权利声明" rseat="反盗版和反盗链权利声明">反盗版和反盗链权利声明</a>&nbsp;&nbsp;&nbsp; Copyright © 2020 <a href="//www.iqiyi.com/" title="爱奇艺" rseat="爱奇艺">爱奇艺</a> <span rseat="© 2020 iQIYI.COM"> All Rights Reserved</span>
             </div>
         </div>
+    </div>
+    <!-- 侧边导航栏 -->
+    <div class="baseScrollBar" style="position: fixed; left: 50%;top:500px; bottom: 10px; display: block;width: 30px;height: 80px;margin-left: 600px" data-widget-wrapper="basescrollbar" data-parent-width="1200" data-private-display="block">
+        <ul class="baseScrollBar_menus">
+            <li>
+                <a href="//www.iqiyi.com/common/mallhelpandsuggest.html?entry=mall_head_page" target="_blank" class="feedback" title="反馈" rseat="反馈"></a>
+            </li>
+            <li data-widget-totopbtn="totop" data-totopbtn-time="150" data-totopbtn-hoverclass="selected" data-totopbtn-undownclass="unEffective" alt="回顶部" title="回顶部" class="">
+                <a href="#" class="baseToTop" alt="回顶部" title="回顶部" rseat="回顶部"></a>
+            </li>
+        </ul>
     </div>
 </body>
 

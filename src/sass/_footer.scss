@@ -166,3 +166,71 @@ $font12:12px;
         color: #666!important;
     }
 }
+
+.totop {
+    ul {
+        width: 30px;
+        height: 80px;
+        li {
+            width: 30px;
+            height: 40px;
+            background: red;
+            // background: url(../images/baseRedScrollBar.png) no-repeat -50px -82px;
+        }
+    }
+}
+
+// totop
+.baseScrollBar_menus {
+    width: 36px;
+}
+
+.baseScrollBar_menus .feedback {
+    background-position: -50px -82px;
+    margin-bottom: 10px;
+}
+
+.baseScrollBar_menus .baseToTop,
+.baseScrollBar_menus .feedback {
+    display: block;
+    width: 36px;
+    height: 36px;
+    background-image: url('../images/baseRedScrollBar.png');
+    cursor: pointer;
+}
+
+.baseScrollBar_menus .baseToTop {
+    background-position: -50px -46px;
+}
+
+.baseScrollBar_menus .baseToTop,
+.baseScrollBar_menus .feedback {
+    display: block;
+    width: 36px;
+    height: 36px;
+    background-image: url('../images/baseRedScrollBar.png');
+    cursor: pointer;
+}
+
+.feedback {
+    background: url('../images/baseRedScrollBar.png') no-repeat -50px -82px;
+}
+
+.baseScrollBar_menus {
+    height: 60px;
+    width: 36px;
+    ul {
+        height: 60px;
+        width: 36px;
+        li {
+            width: 36px;
+            height: 60px;
+            background-color: #f00;
+        }
+    }
+}
+
+// .baseScrollBar_menus li {
+//     width: 30px;
+//     height: 60px;
+// }
